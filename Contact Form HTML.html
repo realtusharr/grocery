@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>
+            
+            Contact Form
+        
+        </title>
+
+        <!--==Stylesheet=============================-->
+    <link rel="stylesheet" type="text/css" href="Home Page CSS.css">
+
+    <!--==Fav-icon===============================-->
+    <link rel="shortcut icon" href="images/fav-icon.png"/>
+
+    <!--==Using-Font-Awesome=====================-->
+    <script src="https://kit.fontawesome.com/5471644867.js" crossorigin="anonymous"></script>
+
+    <script src = 'Home Page JS.js' defer></script>
+
+        <link rel="stylesheet" href="Contact Form CSS.css">
+        
+        <link rel="shortcut icon" type="image/jpg" href="C:\Users\hp\Desktop\College\First Semester\Introduction To Web Technologies\Notepad ++ Files\Project\favicon.ico"/>
+
+        <script src="Contact Form JS.js"></script>
+
+    </head>
+
+    <body>
+        <nav class="navigation">
+
+            <!--logo-------->
+            <a href="#" class="logo">
+
+                <span>C</span>GS
+
+            </a>
+
+            <!--menu-btn---->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+
+            <label for="menu-btn" class="menu-icon">
+
+                <span class="nav-icon"></span>
+
+            </label>
+
+            <!--menu-------->
+            <ul class="menu">
+
+                <li>
+                    <a href="Home Page HTML.html" class="active">
+                        
+                        Home
+
+                    </a>
+                
+                </li>
+
+                
+
+                <li>
+                    
+                    <a href="Contact Form HTML.html">
+                        
+                        Contact&nbsp;Us
+                    
+                    </a>
+                
+                </li>
+				
+				<li>
+                    
+                    <a href="Feedback Form HTML.html">
+                        
+                        Feedback
+                    
+                    </a>
+                
+                </li>
+				
+				<li>
+
+					<a href="About Us HTML.html">
+
+						About&nbsp;us
+
+					</a>
+
+                </li>
+
+               
+
+                <li>
+                    
+                    <a href="Login And Registration HTML.html">
+                            
+                        Sign&nbsp;up
+                        
+                    </a>
+                    
+                </li>
+
+                
+                <li>
+                    
+                    <a href="Login And Registration HTML.html">
+                        
+                        Login
+                    
+                    </a>
+                
+                </li>
+
+				</ul>
+
+            <!--right-nav-(cart-like)-->
+            <div class="right-nav">
+
+                <!--like----->
+                <a href="Wishlist HTML.html" class="like">
+
+                    <i class="fas fa-heart"></i>
+
+                    <span>
+                        
+                        2
+                    
+                    </span>
+
+                </a>
+
+                <!--cart----->
+                <a href="Shopping Cart HTML.html" class="cart">
+
+                    <i class="fas fa-shopping-cart"></i>
+
+                    <span>
+                        
+                        2
+                    
+                    </span>
+
+                </a>
+
+                <!--cart----->
+                <a href="Profile HTML.html" class="user-profile">
+
+                    <i class="fas fa-user"></i>
+
+                    <span>
+
+                        1
+
+                    </span>
+
+                </a>
+
+            </div>
+
+        </nav>
+
+        <div class="wrapper">
+
+            <h2 align = 'center'>
+                
+                Contact Form
+        
+            </h2>
+
+            <div id="error_message"></div>
+
+            <form id="myform" onsubmit="return validate();">
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Name" id="name">
+
+                </div>
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Subject" id="subject">
+
+                </div>
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Phone" id="phone">
+
+                </div>
+
+                <div class="input_field">
+
+                    <input type="text" placeholder="Email" id="email">
+
+                </div>
+
+                <div class="input_field">
+
+                    <textarea placeholder="Message" id="message"></textarea>
+
+                </div>
+
+                <button type="submit" class="btn">
+                    
+                    <a href="Contact Form Confirm HTML and CSS.html" style = 'color: white; text-decoration: none;'>
+                        
+                        Submit
+                    
+                    </a>
+                
+                </button>
+
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
